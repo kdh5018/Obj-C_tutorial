@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		76606FA92AF8EA01007AD595 /* Friend.m in Sources */ = {isa = PBXBuildFile; fileRef = 76606FA82AF8EA01007AD595 /* Friend.m */; };
 		768ECA852AF8CE9600CAE74C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768ECA842AF8CE9600CAE74C /* AppDelegate.m */; };
 		768ECA882AF8CE9600CAE74C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 768ECA872AF8CE9600CAE74C /* SceneDelegate.m */; };
 		768ECA8B2AF8CE9600CAE74C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 768ECA8A2AF8CE9600CAE74C /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		76606FA82AF8EA01007AD595 /* Friend.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Friend.m; sourceTree = "<group>"; };
+		76606FAA2AF8EA0B007AD595 /* Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Friend.h; sourceTree = "<group>"; };
 		768ECA802AF8CE9600CAE74C /* Obj-C_tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Obj-C_tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		768ECA832AF8CE9600CAE74C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		768ECA842AF8CE9600CAE74C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +70,8 @@
 				768ECA872AF8CE9600CAE74C /* SceneDelegate.m */,
 				768ECA892AF8CE9600CAE74C /* ViewController.h */,
 				768ECA8A2AF8CE9600CAE74C /* ViewController.m */,
+				76606FAA2AF8EA0B007AD595 /* Friend.h */,
+				76606FA82AF8EA01007AD595 /* Friend.m */,
 				768ECA8C2AF8CE9600CAE74C /* Main.storyboard */,
 				768ECA8F2AF8CE9700CAE74C /* Assets.xcassets */,
 				768ECA912AF8CE9700CAE74C /* LaunchScreen.storyboard */,
@@ -147,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				768ECA8B2AF8CE9600CAE74C /* ViewController.m in Sources */,
+				76606FA92AF8EA01007AD595 /* Friend.m in Sources */,
 				768ECA852AF8CE9600CAE74C /* AppDelegate.m in Sources */,
 				768ECA962AF8CE9700CAE74C /* main.m in Sources */,
 				768ECA882AF8CE9600CAE74C /* SceneDelegate.m in Sources */,
@@ -300,6 +306,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,8 +314,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rlaehgns745.Obj-C-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -327,6 +337,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -334,8 +345,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rlaehgns745.Obj-C-tutorial";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
